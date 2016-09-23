@@ -13,10 +13,18 @@
   
   <artifactId>renjin-guava</artifactId>
   <name>renjin-repackaged-guava</name>
-  <version>17.0</version>
+  <version>17.0b</version>
   <description>Renjin Guava Repackaged</description>
   <packaging>jar</packaging>
 
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  
   <build>
     <plugins>
       <plugin>
@@ -58,7 +66,7 @@
     <dependency>
       <groupId>com.google.guava</groupId>
       <artifactId>guava</artifactId>
-      <version>${project.version}</version>
+      <version>17.0</version>
       <optional>true</optional>
     </dependency>
   </dependencies>

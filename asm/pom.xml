@@ -13,11 +13,19 @@
 
   <artifactId>renjin-asm</artifactId>
   <name>Renjin ASM Library Repackaged</name>
-  <version>5.0.4</version>
+  <version>5.0.4b</version>
   <packaging>jar</packaging>
   <properties>
     <asm.version>5.0.4</asm.version>
   </properties>
+
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
 
   <build>
     <plugins>
