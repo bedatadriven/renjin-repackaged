@@ -13,7 +13,7 @@
   
   <artifactId>renjin-guava</artifactId>
   <name>renjin-repackaged-guava</name>
-  <version>28.0</version>
+  <version>28.0b</version>
   <description>Renjin Guava Repackaged</description>
   <packaging>jar</packaging>
 
@@ -37,6 +37,7 @@
           <artifactSet>
             <includes>
               <include>com.google.guava:guava:*</include>
+              <include>com.google.guava:failureaccess:*</include>
             </includes>
           </artifactSet>
           <relocations>
